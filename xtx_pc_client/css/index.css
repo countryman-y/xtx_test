@@ -1,0 +1,104 @@
+/* 放index页面的样式表 */
+/* 导航栏 */
+.header {
+    height: 70px;
+    margin: 30px auto;
+}
+
+.header .logo {
+    float: left;
+    margin-right: 40px;
+    width: 207px;
+    height: 70px;
+}
+
+.header .logo h1 a {
+    display: inline-block;
+    width: 207px;
+    height: 70px;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    font-size: 0px;
+}
+
+.header .nav {
+    height: 70px;
+    line-height: 70px;
+    float: left;
+}
+
+.header .nav li {
+    float: left;
+    margin-right: 48px;
+}
+
+.header .nav li a:hover {
+    padding-bottom: 7px;
+    border-bottom: 1px solid #27ba9b;
+    color: #27ba9b;
+}
+
+.header .search {
+    position: relative;
+    float: left;
+    margin-left: 34px;
+    margin-top: 24px;
+    width: 172px;
+    height: 30px;
+}
+
+.header .search input {
+    width: 172px;
+    height: 30px;
+    border: 0px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+.header .search span {
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/sprites.png);
+    background-position: -79px -69px;
+}
+
+.header .search input::placeholder {
+    font-size: 14px;
+    color: #ccc;
+    padding-left: 29px;
+}
+
+.header .car {
+    position: relative;
+    float: left;
+    margin-top: 28px;
+    margin-left: 31px;
+    width: 23px;
+    height: 23px;
+    background-image: url(../images/sprites.png);
+    background-position: -120px -70px;
+}
+
+.header .car span {
+    position: absolute;
+    top: -7px;
+    left: 13px;
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 14px;
+    color: #fff;
+    background-color: #e26237;
+    border-radius: 8px;
+}
+
+.banner {
+    height: 500px;
+    background-color: #f5f5f5;
+}

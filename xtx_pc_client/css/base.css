@@ -1,0 +1,23 @@
+/* 清除默认样式的代码 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: normal normal 16px/1 HONORSansCN-Regular, Microsoft YaHei, Heiti SC, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul li {
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}

@@ -1,0 +1,65 @@
+/* 各个页面相同的样式表。比如说网页的头、尾部 */
+/* 版心 */
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* 快捷导航菜单 */
+.shortcut {
+    height: 52px;
+    background-color: #333;
+}
+
+.shortcut .wrapper {
+    height: 52px;
+    line-height: 52px;
+}
+
+.shortcut .wrapper ul {
+    float: right;
+}
+
+.shortcut .wrapper ul li {
+    float: left;
+    margin-right: 16px;
+}
+
+.shortcut .wrapper ul li:last-child {
+    margin-right: 0px;
+}
+
+.shortcut .wrapper ul li a {
+    /* margin-right: 16px; */
+    padding-right: 16px;
+    border-right: 1px solid #666;
+    color: #dcdcdc;
+    font-size: 14px;
+}
+
+.shortcut .wrapper ul li a:hover {
+    color: #27ba9b;
+}
+
+.shortcut .wrapper .last {
+    padding-right: 0px;
+    border-right: 0px;
+}
+
+.shortcut .wrapper ul li a span {
+    /* 注意这里span是行内元素 */
+    display: inline-block;
+    margin-right: 8px;
+    width: 11px;
+    height: 16px;
+    background-image: url(../images/sprites.png);
+    background-position: -160px -70px;
+    vertical-align: middle;
+}
+
+.shortcut .wrapper ul li a span:hover {
+    width: 11px;
+    height: 16px;
+    background-image: url(../images/sprites_1.png);
+    background-position: -160px -70px;
+}
