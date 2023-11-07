@@ -180,7 +180,7 @@
 
 .footer .wrapper .top {
     height: 174px;
-    background-color: pink;
+    border-bottom: 3px solid #434343;
 }
 
 .footer .wrapper .top li {
@@ -200,7 +200,7 @@
 /* 图标这里通过伪元素来实现 */
 /* 当图片和文字垂直对齐用vertical-align:middle;和line-height都不能很好实现的时候,就使用定位 */
 .footer .wrapper .top li::before {
-    
+
     content: '';
     display: inline-block;
     margin-right: 25px;
@@ -220,10 +220,27 @@
 .footer .wrapper .top li:last-child::before {
     background-position: -131px 0;
 }
-.footer .wrapper .top span{
+
+.footer .wrapper .top span {
     position: absolute;
     top: 13px;
     left: 82px;
     font-size: 28px;
     color: #fff;
+}
+
+.footer .wrapper .bottom {
+    margin-top: 41px;
+    color: #999;
+    text-align: center;
+}
+
+.footer .wrapper .bottom a {
+    font-size: 14px;
+    color: #999;
+}
+
+.footer .wrapper .bottom p {
+    font-size: 14px;
+    margin-top: 20px;
 }
