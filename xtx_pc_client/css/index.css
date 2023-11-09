@@ -61,3 +61,46 @@
 }
 
 /* 箭头 */
+.banner .wrapper .prev,
+.banner .wrapper .next {
+    position: absolute;
+    top: 228px;
+    width: 45px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    background-image: url(../images/sprites.png);
+}
+
+.banner .wrapper .prev {
+    left: 260px;
+    background-position: 15px -60px;
+}
+
+.banner .wrapper .next {
+    right: 10px;
+    background-position: -25px -60px;
+}
+
+/* 圆点 */
+.banner .wrapper ol {
+    position: absolute;
+    left: 680px;
+    bottom: 31px;
+    height: 10px;
+    list-style: none;
+}
+
+.banner .wrapper ol li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 24px;
+    background-color: rgba(255, 255, 255, 0.43);
+    cursor: pointer;
+}
+
+.banner .wrapper .current{
+    background-color: #fff;
+}
