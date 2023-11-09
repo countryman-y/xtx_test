@@ -11,7 +11,7 @@
     background-color: pink;
 }
 
-/* 测导航 */
+/* 侧导航 */
 .banner .aside {
     position: absolute;
     top: 0px;
@@ -22,12 +22,42 @@
 }
 
 .banner .wrapper .aside li {
+    position: relative;
     height: 50px;
     line-height: 50px;
-    background-color: #27ba9b;
 }
-.banner .wrapper .aside li a{
-    margin-left: 36px;
-    margin-right: 15px;
+
+/* 注意这里整个li就是a */
+.banner .wrapper .aside li a {
+    display: block;
+    padding-left: 36px;
+    height: 50px;
     color: #fff;
 }
+
+/* 注意这里的hover是加给a标签不是li */
+.banner .wrapper .aside li a:hover {
+    background-color: #27ba9b;
+}
+
+.banner .wrapper .aside li span:nth-child(1) {
+    padding-left: 15px;
+}
+
+.banner .wrapper .aside span {
+    font-size: 14px;
+}
+
+.banner .wrapper .aside li span:last-child::after {
+    position: absolute;
+    top: 19px;
+    right: 19px;
+    display: inline-block;
+    content: "";
+    width: 6px;
+    height: 11px;
+    background-image: url(../images/sprites.png);
+    background-position: -80px -110px;
+}
+
+/* 箭头 */
