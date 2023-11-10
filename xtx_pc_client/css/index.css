@@ -101,6 +101,93 @@
     cursor: pointer;
 }
 
-.banner .wrapper .current{
+.banner .wrapper .current {
     background-color: #fff;
+}
+
+/* 新鲜好物 */
+.goods {
+    margin-top: 48px;
+}
+
+.goods .goods_title {
+    height: 29px;
+    margin-bottom: 37px;
+}
+
+.goods .goods_title h2 {
+    float: left;
+    margin-right: 34px;
+    font-weight: 400;
+    color: #333;
+}
+
+.goods .goods_title span {
+    font-size: 16px;
+    color: #999;
+    line-height: 0px;
+    vertical-align: bottom;
+}
+
+.goods .goods_title a {
+    float: right;
+    font-size: 16px;
+    color: #999;
+}
+
+.goods .goods_title a::after {
+    display: inline-block;
+    margin-left: 13px;
+    content: "";
+    width: 7px;
+    height: 13px;
+    vertical-align: middle;
+    background-image: url(../images/sprites.png);
+    background-position: 0 -110px;
+}
+
+.goods .goods_body ul li {
+    position: relative;
+    float: left;
+    width: 304px;
+    height: 405px;
+    background-color: #f0f9f4;
+    margin-right: 8px;
+}
+
+.goods .goods_body ul li:nth-child(4n) {
+    margin-right: 0px;
+}
+
+.goods .goods_body ul li a .images {
+    height: 305px;
+}
+.goods .goods_body ul li a .new{
+    position: absolute;
+    top: 18px;
+    left: 17px;
+    width: 28px;
+    height: 51px;
+}
+
+.goods .goods_body ul li .text{
+    height: 100px;
+    text-align: center;
+    margin: 22px auto;
+}
+.goods .goods_body ul li .text h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+}
+.goods .goods_body ul li .text h4{
+    font-size: 23px;
+    margin-top: 19px;
+    font-weight: normal;
+    color: #9a2e1f;
+}
+
+.goods .goods_body ul li .text span{
+    font-size: 17px;
+    margin-right: 3px;
 }
