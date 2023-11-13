@@ -162,7 +162,8 @@
 .goods .goods_body ul li a .images {
     height: 305px;
 }
-.goods .goods_body ul li a .new{
+
+.goods .goods_body ul li a .new {
     position: absolute;
     top: 18px;
     left: 17px;
@@ -170,24 +171,54 @@
     height: 51px;
 }
 
-.goods .goods_body ul li .text{
+.goods .goods_body ul li .text {
     height: 100px;
     text-align: center;
     margin: 22px auto;
 }
-.goods .goods_body ul li .text h3{
+
+.goods .goods_body ul li .text h3 {
     font-size: 20px;
     font-weight: 400;
     color: #333;
 }
-.goods .goods_body ul li .text h4{
+
+.goods .goods_body ul li .text h4 {
     font-size: 23px;
     margin-top: 19px;
     font-weight: normal;
     color: #9a2e1f;
 }
 
-.goods .goods_body ul li .text span{
+.goods .goods_body ul li .text span {
     font-size: 17px;
     margin-right: 3px;
+}
+
+/* 人气推荐 */
+.hot .hot_title h2 {
+    float: left;
+    margin-top: 47px;
+    margin-bottom: 40px;
+    margin-right: 34px;
+    font-size: 29px;
+    font-weight: normal;
+    color: #333;
+}
+
+.hot .hot_title span {
+    float: left;
+    margin-top: 57px;
+    font-size: 16px;
+    color: #999;
+}
+
+.hot .hot_body li {
+    width: 304px;
+    height: 405px;
+    border-right-color: green;
+}
+
+.hot .hot_body img {
+    width: 304px;
 }
