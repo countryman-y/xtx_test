@@ -233,15 +233,42 @@
     text-align: center;
     margin-top: 22px;
 }
-.hot .hot_body li .text h3{
+
+.hot .hot_body li .text h3 {
     font-weight: 400;
     font-size: 21px;
     color: #333;
 }
 
-.hot .hot_body li .text h4{
+.hot .hot_body li .text h4 {
     margin-top: 18px;
     font-weight: 400;
     font-size: 16px;
+    color: #999;
+}
+
+/* 热门品牌 */
+.re_brand {
+    margin-top: 55px;
+    height: 466px;
+    background-color: #f5f5f5;
+}
+
+.re_brand .wrapper .re_brand_title {
+    padding-top: 42px;
+    height: 28px;
+}
+
+.re_brand .wrapper .re_brand_title h3 {
+    float: left;
+    font-size: 29px;
+    font-weight: 400;
+    color: #333;
+}
+
+.re_brand .wrapper .re_brand_title span {
+    float: left;
+    margin-left: 35px;
+    margin-top: 13px;
     color: #999;
 }
